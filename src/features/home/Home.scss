@@ -1,0 +1,17 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+.me {
+  width: 20em;
+  object-fit: scale-down;
+  border-radius: 2rem;
+}
+
+@include media-breakpoint-down(md) {
+  .home-breakpoint {
+    flex-wrap: wrap;
+  }
+}
+
+.icon-button {
+  font-size: 2rem;
+}
