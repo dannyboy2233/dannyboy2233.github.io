@@ -18,13 +18,13 @@ const Resume = () => {
     <Page title="Resume" subtitle={subtitle}>
       <ResumeSection name="Education">
         <Degree
-          name="Sc.B. Computer Engineering"
-          university="Brown University (Providence, RI)"
+          name="B.A. Economics &amp; B.A. Data Science"
+          university="University of California, Berkeley (Berkeley, CA)"
           years="2017–2021"
-          notes="with honors, magna cum laude"
+          notes="with High Honors, High Distinction"
         />
       </ResumeSection>
-      <ResumeSection name="Work Experience">
+      <ResumeSection name="Professional Experience">
         <WorkExperience
           company="Common Sense Machines"
           location="Cambridge, MA"
@@ -32,7 +32,7 @@ const Resume = () => {
           dates="September 2021–August 2022"
           bullets={[
             'Developed technology related to 3D reconstruction and object understanding.',
-            'Worked on optimized neural scene representations using CUDA.'
+            'Worked on optimized neural scene representations using CUDA.',
           ]}
         />
         <WorkExperience

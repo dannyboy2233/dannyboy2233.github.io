@@ -13,14 +13,17 @@ const Home = () => (
       <div className="p-4">
         <h1>Daniel Cohen</h1>
         <div>
-          Hello! I&apos;m a research engineer at{' '}
-          <a href="https://csm.ai/">Common Sense Machines</a> and a former
-          undergraduate student at Brown University. I will be a PhD student at
-          the{' '}
-          <a href="https://www.scenerepresentations.org/">
-            Scene Representation Group at MIT EECS
-          </a>{' '}
-          starting in September 2022. Click the links below to learn more!
+          Hi! I&apos;m a predoctoral fellow in the Economics and Computation
+          group at{' '}
+          <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/">
+            Microsoft Research New England
+          </a>
+          . Professionally, I&apos;m interested in using novel data collection
+          and analysis methods to understand how households make financial
+          decisions. Personally, I&apos;m interested in hiking, cycling,
+          mountain biking, and obsessing over the perfect espresso. I graduated
+          from UC Berkeley in 2021 with dual degrees in Economics and Data
+          Science.
         </div>
         <div className="mt-2">
           <Link to="/research">Research</Link>
@@ -32,11 +35,11 @@ const Home = () => (
         <div className="mt-4 d-flex flex-row">
           <IconButton
             className="mr-2"
-            href="https://www.linkedin.com/in/davidcharatan/"
+            href="https://www.linkedin.com/in/daniel-cohen-12312a140"
           >
             <LinkedinFilled />
           </IconButton>
-          <IconButton href="https://github.com/dcharatan">
+          <IconButton href="https://github.com/dannyboy2233">
             <GithubFilled />
           </IconButton>
         </div>

@@ -9,7 +9,7 @@ const Header = () => (
     className="border-bottom p-0 align-items-stretch"
   >
     <HeaderLink to="/" className="border-right px-4 py-3">
-      David Charatan
+      Daniel Cohen
     </HeaderLink>
     <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
     <Navbar.Collapse>
