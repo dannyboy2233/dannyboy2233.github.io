@@ -18,8 +18,8 @@ const Home = () => (
           <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/">
             Microsoft Research New England
           </a>
-          . Professionally, I&apos;m interested in using novel data collection
-          and analysis methods to understand how households make financial
+          . Academically, I&apos;m interested in using novel data collection and
+          analysis methods to understand how households make financial
           decisions. Personally, I&apos;m interested in hiking, cycling,
           mountain biking, and obsessing over the perfect espresso. I graduated
           from UC Berkeley in 2021 with dual degrees in Economics and Data

@@ -21,7 +21,7 @@ const Resume = () => {
           name="B.A. Economics &amp; B.A. Data Science"
           university="University of California, Berkeley (Berkeley, CA)"
           years="2017–2021"
-          notes="with High Honors, High Distinction"
+          notes="with High Honors, High Distinction, Phi Beta Kappa"
         />
       </ResumeSection>
       <ResumeSection name="Professional Experience">

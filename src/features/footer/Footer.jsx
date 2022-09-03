@@ -7,9 +7,13 @@ const Footer = () => (
       <Row>
         <Col>
           <div className="border-top py-4">
-            <div>© David Charatan</div>
+            <div>© Daniel Cohen</div>
             <div className="small text-muted">
               This website&apos;s design is inspired by{' '}
+              <a href="https://davidcharatan.com/">
+                David Charatan&apos;s website
+              </a>
+              , which is inspired by{' '}
               <a href="https://mldangelo.com/">
                 Michael D&apos;Angelo&apos;s website
               </a>
