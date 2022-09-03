@@ -11,7 +11,7 @@ const Home = () => (
     <div className="d-flex flex-row align-items-center justify-content-center home-breakpoint">
       <img src={Me} alt="Me" className="me p-4" />
       <div className="p-4">
-        <h1>David Charatan</h1>
+        <h1>Daniel Cohen</h1>
         <div>
           Hello! I&apos;m a research engineer at{' '}
           <a href="https://csm.ai/">Common Sense Machines</a> and a former
