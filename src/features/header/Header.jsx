@@ -14,9 +14,9 @@ const Header = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
     <Navbar.Collapse>
       <Nav className="p-2">
-        <HeaderLink to="/research">Research</HeaderLink>
-        <HeaderLink to="/projects">Projects</HeaderLink>
-        <HeaderLink to="/resume">Resume</HeaderLink>
+        <HeaderLink to="/">Research</HeaderLink>
+        <HeaderLink to="/">Projects</HeaderLink>
+        <HeaderLink to="/">Resume</HeaderLink>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

@@ -26,11 +26,11 @@ const Home = () => (
           Science.
         </div>
         <div className="mt-2">
-          <Link to="/research">Research</Link>
+          <Link to="/">Research</Link>
           <span className="mx-3 text-secondary">|</span>
-          <Link to="/projects">Projects</Link>
+          <Link to="/">Projects</Link>
           <span className="mx-3 text-secondary">|</span>
-          <Link to="/resume">Resume</Link>
+          <Link to="/">Resume</Link>
         </div>
         <div className="mt-4 d-flex flex-row">
           <IconButton
