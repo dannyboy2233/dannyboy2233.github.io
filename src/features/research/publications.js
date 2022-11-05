@@ -7,7 +7,7 @@ import {
 
 export const OptimalNPI = {
   title: 'When Do "Nudges" Increase Welfare?',
-  url: 'https://rkjones4.github.io/shapeMOD.html',
+  url: 'https://danielmorsecohen.com/#/research',
   authors: [HuntAllcott, DanielCohen, WilliamMorrison, DmitryTaubinsky],
   venue: 'Submitted to American Economic Review (November 2022).',
 };
