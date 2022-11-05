@@ -1,6 +1,8 @@
 import React from 'react';
 import publications from '../research/publications';
 import Publication from '../research/Publication';
+import ongoingworks from '../research/ongoingworks';
+import OngoingWork from '../research/OngoingWork';
 import Page from './Page';
 
 const Research = () => {
@@ -18,17 +20,38 @@ const Research = () => {
     )
   );
 
+  const ongoingWorkNodes = ongoingworks.map(({ title, description }, index) => (
+    <ul>
+      <li>
+        <OngoingWork
+          title={title}
+          description={description}
+          className={index < publications.length - 1 ? 'mb-4' : ''}
+        />
+      </li>
+    </ul>
+  ));
+
   const subtitle = (
     <>
       I&apos;ve conducted undergraduate research with{' '}
-      <a href="https://dritchie.github.io/csci2240/">Daniel Ritchie</a> at{' '}
-      <a href="https://visual.cs.brown.edu/">Brown Visual Computing.</a>
+      <a href="https://raulsanchezdelasierra.com/">Raúl Sánchez de la Sierra</a>{' '}
+      (now at the University of Chicago&apos;s Harris School of Public Policy)
+      and <a href="https://www.jblumenstock.com/">Josh Blumenstock</a> at
+      Berkeley&apos;s School of Information.
     </>
   );
 
   return (
     <Page title="Research" subtitle={subtitle}>
-      {publicationNodes}
+      <div className="mb-4">
+        <h2>Working Papers</h2>
+        {publicationNodes}
+      </div>
+      <div className="mb-4">
+        <h2>Ongoing Research</h2>
+        {ongoingWorkNodes}
+      </div>
     </Page>
   );
 };

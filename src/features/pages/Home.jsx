@@ -21,15 +21,15 @@ const Home = () => (
           . Academically, I&apos;m interested in using novel data collection and
           analysis methods to understand how households make financial
           decisions. Personally, I&apos;m interested in hiking, cycling,
-          mountain biking, and obsessing over the perfect espresso. I graduated
-          from UC Berkeley in 2021 with dual degrees in Economics and Data
-          Science.
+          mountain biking, climbing, and obsessing over the perfect espresso. I
+          graduated from UC Berkeley in 2021 with dual degrees in Economics and
+          Data Science.
         </div>
         <div className="mt-2">
-          <Link to="/">Research</Link>
+          <Link to="/research">Research</Link>
           <span className="mx-3 text-secondary">|</span>
-          <Link to="/">Projects</Link>
-          <span className="mx-3 text-secondary">|</span>
+          {/* <Link to="/projects">Projects</Link>
+          <span className="mx-3 text-secondary">|</span> */}
           <Link to="/">Resume</Link>
         </div>
         <div className="mt-4 d-flex flex-row">

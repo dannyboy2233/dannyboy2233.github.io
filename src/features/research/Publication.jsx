@@ -28,19 +28,12 @@ const Publication = ({
 
   return (
     <div {...props}>
-      <div className="d-flex flex-row">
-        <img
-          src={thumbnailSource}
-          alt={`Thumbnail for ${title}`}
-          className="publication-image mr-3 border"
-        />
-        <div className="d-flex flex-column">
-          <a href={url} className="publication-link">
-            {title}
-          </a>
-          <div>{authorBlob}</div>
-          <div className="font-italic">{venue}</div>
-        </div>
+      <div className="d-flex flex-column">
+        <a href={url} className="publication-link">
+          {title}
+        </a>
+        <div>{authorBlob}</div>
+        <div className="font-italic">{venue}</div>
       </div>
     </div>
   );

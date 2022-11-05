@@ -1,47 +1,15 @@
 import {
-  AngelChang,
-  DanielRitchie,
-  DavidCharatan,
-  HanxiaoJiang,
-  KennyJones,
-  MaeHeitmann,
-  ManolisSavva,
-  NiloyMitra,
-  PaulGuerrero,
-  SiddharthaChaudhuri,
-  SoniaRaychaudhuri,
-  VladimirKim,
-  XianghaoXu,
+  HuntAllcott,
+  DanielCohen,
+  DmitryTaubinsky,
+  WilliamMorrison,
 } from './authors';
-import ThumbnailShapeMOD from './thumbnail_shapemod.jpeg';
-import ThumbnailArticulations from './thumbnail_articulations.gif';
 
-export const ShapeMOD = {
-  title: 'ShapeMOD: Macro Operation Discovery for 3D Shape Programs',
+export const OptimalNPI = {
+  title: 'When Do "Nudges" Increase Welfare?',
   url: 'https://rkjones4.github.io/shapeMOD.html',
-  thumbnailSource: ThumbnailShapeMOD,
-  authors: [KennyJones, DavidCharatan, PaulGuerrero, NiloyMitra, DanielRitchie],
-  venue: 'SIGGRAPH 2021',
+  authors: [HuntAllcott, DanielCohen, WilliamMorrison, DmitryTaubinsky],
+  venue: 'Submitted to American Economic Review (November 2022).',
 };
 
-export const Articulations = {
-  title:
-    'Motion Annotation Programs: A Scalable Approach to Annotating Kinematic Articulations in Large 3D Shape Collections',
-  url: 'http://visual.cs.brown.edu/projects/articulations-webpage/',
-  thumbnailSource: ThumbnailArticulations,
-  authors: [
-    XianghaoXu,
-    DavidCharatan,
-    SoniaRaychaudhuri,
-    HanxiaoJiang,
-    MaeHeitmann,
-    VladimirKim,
-    SiddharthaChaudhuri,
-    ManolisSavva,
-    AngelChang,
-    DanielRitchie,
-  ],
-  venue: '3DV 2020',
-};
-
-export default [ShapeMOD, Articulations];
+export default [OptimalNPI];
