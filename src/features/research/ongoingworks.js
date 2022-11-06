@@ -6,7 +6,7 @@ export const BadMedicine = {
 };
 
 export const RetirementElasticity = {
-  title: 'Elasticity of retirement investing',
+  title: 'Elasticity of Retirement Investing',
   description:
     'I use IRS Form 5500 data to estimate the elasticity of retirement investing with respect to marginal income tax rates.',
 };

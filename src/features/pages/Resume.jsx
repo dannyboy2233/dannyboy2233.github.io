@@ -9,8 +9,7 @@ import Page from './Page';
 const Resume = () => {
   const subtitle = (
     <div className="mt-2">
-      For research and projects, see <Link to="/research">research</Link> and{' '}
-      <Link to="/projects">projects</Link>.
+      For research, see <Link to="/research">research</Link>.
     </div>
   );
 
@@ -19,104 +18,124 @@ const Resume = () => {
       <ResumeSection name="Education">
         <Degree
           name="B.A. Economics &amp; B.A. Data Science"
-          university="University of California, Berkeley (Berkeley, CA)"
+          university="University of California, Berkeley"
           years="2017–2021"
-          notes="with High Honors, High Distinction, Phi Beta Kappa"
+          notes="Phi Beta Kappa, with High Distinction in General Scholarship and High Honors in Economics"
+        />
+      </ResumeSection>
+      <ResumeSection name="Research Experience">
+        <WorkExperience
+          company="Microsoft Research New England"
+          location="Cambridge, MA"
+          position="Predocotral Research Fellow, Economics &amp; Computation"
+          dates="July 2021–Present"
+          bullets={[
+            'Worked with Dr. Hunt Allcott and Dr. Dmitry Taubinsky on a jointly authored paper estimating the welfare effects and targeting of "nudges"',
+            'Worked with Dr. David Rothschild and Dr. Elad Yom-Tov on a jointly authored paper studying the movement and proliferation of medical hoaxes during the COVID-19 pandemic.',
+            'Worked with Dr. Hunt Allcott and Dr. Matt Gentzkow on a paper estimating the tradeoff between commitment and flexibility when disincentivizing use of social media platforms.',
+          ]}
+        />
+        <WorkExperience
+          company="Department of Economics at the University of California, Berkeley"
+          location="Berkeley, CA"
+          position="Summer Undergraduate Research Fellow under Professor Danny Yagan"
+          dates="May 2020–September 2020"
+          bullets={[
+            'Received $5,000 stipend to spend summer developing Economics honors thesis. Research question: what is the elasticity of retirement investing with respect to marginal income tax rates?',
+            'Leveraged large-scale IRS data and granular tax simulations to develop a difference-in-differences methodology estimating the extent to which retirement investing habits depend on changes in marginal income tax rates.',
+          ]}
+        />
+        <WorkExperience
+          company="School of Information at the University of California, Berkeley"
+          location="Berkeley, CA"
+          position="Research Assistant under Associate Professor Josh Blumenstock"
+          dates="January 2020–February 2021"
+          bullets={[
+            'Performed machine-learning causal and heterogeneity analyses of digital credit program effectiveness in Nigeria.',
+          ]}
+        />
+        <WorkExperience
+          company="Haas School of Business at the University of California, Berkeley"
+          location="Berkeley, CA"
+          position="Research Assistant under Assistant Professor Raúl Sánchez de la Sierra"
+          dates="February 2018-November 2019"
+          bullets={[
+            'Produced automated animations of corruption indicators and warlord territory growth in the Democratic Republic of the Congo (DRC), revealing how humans interact in the absence of government.',
+            'August - September, 2019: Conducted field work in DRC/Rwanda involving experimental design and survey methodology to pilot new study examining who joins armed groups and how participants are affected over time.',
+          ]}
         />
       </ResumeSection>
       <ResumeSection name="Professional Experience">
         <WorkExperience
-          company="Common Sense Machines"
-          location="Cambridge, MA"
-          position="Research Engineer"
-          dates="September 2021–August 2022"
+          company="VMware"
+          location="Palo Alto, CA"
+          position="Data Science Intern, Competitive Intelligence Department"
+          dates="June 2019-August 2019"
           bullets={[
-            'Developed technology related to 3D reconstruction and object understanding.',
-            'Worked on optimized neural scene representations using CUDA.',
+            'Built macroeconomic prediction model that continually trains boosted regression trees on automatically-updated federal economic data to predict running recession probabilities and produce biweekly LaTeX reports informing sales forecasts.',
           ]}
         />
         <WorkExperience
-          company="Common Sense Machines"
-          location="Cambridge, MA"
-          position="AI Resident (Internship)"
-          dates="May 2021–August 2021"
-        />
-        <WorkExperience
-          company="Bloomberg L.P."
-          location="New York, NY (Remote)"
-          position="Software Engineering Intern"
-          dates="June 2020–August 2020"
+          company="Vacasa"
+          location="Portland, OR"
+          position="Data Analyst Intern, Operations Team"
+          dates="June 2018-September 2018"
           bullets={[
-            'Built a GraphQL API for real-time data using Node.js, Apollo Server and TypeScript with five full-time developers. Used continuous integration and test-driven development to produce high-quality code.',
-            'Implemented Redis caching to reduce critical query latencies by more than 80%.',
-            'Developed a React-based frontend for the API using Apollo Client and Redux.',
+            'Developed automated pipeline to clean and geographically categorize 3 years of supplies purchasing data, pinpointing financially unstable regions and communicating the Central Office’s concerns to the correct field team.',
           ]}
         />
         <WorkExperience
-          company="Onshape"
-          location="Cambridge, MA"
-          position="Software Development Intern"
-          dates="May 2019–August 2019"
+          company="The Berkeley Group"
+          location="Berkeley, CA"
+          position="Senior Consultant"
+          dates="September 2017-May 2019"
           bullets={[
-            'Improved cloud-based 3D computer-aided design system using C++, Java and TypeScript.',
-            'Enhanced selection, patterning, part assembly and FeatureScript, a proprietary scripting language for geometric data. Added glTF export format UI and implemented geometric queries (e.g. for unique vertices).',
-          ]}
-        />
-        <WorkExperience
-          company="USNR"
-          location="Woodland, WA"
-          position="Software Development Intern"
-          dates="June 2018–August 2018"
-          bullets={[
-            'Built C#-based SolidWorks add-in to generate parametric 3D models from two proprietary laser scan file types, saving technical animators several hours per model.',
-            'Automated defeaturing and recoloring of 3D engineering models for animation.',
+            'Worked on and led three project teams providing pro-bono business advice to local and national nonprofits.',
           ]}
         />
       </ResumeSection>
-      <ResumeSection name="TA Positions">
+      <ResumeSection name="Teaching">
         <WorkExperience
-          company="CSCI 2240: Interactive Computer Graphics"
-          location="Brown University"
+          company="STAT 88: Probability and Mathematical Statistics in Data Science"
+          location="University of California, Berkeley"
           position="Head Teaching Assistant"
-          dates="January 2021–May 2021"
+          dates="August 2020-June 2021"
           bullets={[
-            'Helped students debug C++ projects (path tracer, half-edge mesh operations, soft body simulation) during biweekly office hours and answered student questions via Slack.',
-            'Led grading for the graduate-level course.',
+            'Supervised 23 GSIs and Group Tutors serving 330 students per semester.',
+            'Authored exams, managed course logistics, and developed & disseminated pedagogical instruction in addition to routine teaching.',
           ]}
         />
         <WorkExperience
-          company="CSCI 1670/1690: Operating Systems in Depth"
-          location="Brown University"
-          position="Undergraduate Teaching Assistant"
+          company="STAT 88: Probability and Mathematical Statistics in Data Science"
+          location="University of California, Berkeley"
+          position="Teaching Assistant"
           dates="January 2020–May 2020"
           bullets={[
-            'Held biweekly office hours; helped students debug C projects (implementations of threading/processes, virtual file system, S5 file system, terminal drivers, and virtual memory).',
-            'Served as mentor TA for several students completing the extended lab portion of the course.',
+            'Served as primary non-faculty instructor for 30-student group meeting twice weekly.',
+            'Held office hours, graded exams, & developed homework assignments.',
           ]}
         />
         <WorkExperience
-          company="CSCI 0330: Introduction to Computer Systems"
-          location="Brown University"
-          position="Undergraduate Teaching Assistant"
-          dates="September 2019–December 2019"
+          company="STAT 140: Probability Theory for Data Science"
+          location="University of California, Berkeley"
+          position="Group Tutor"
+          dates="August 2019-December 2019"
           bullets={[
-            'Held biweekly office hours; helped students debug projects (simple shell, malloc implementation, etc.).',
-            'Graded student assignments written in C.',
+            'Held weekly drop-in tutoring sessions for students & planned mini-lessons covering difficult concepts.',
           ]}
         />
       </ResumeSection>
       <ResumeSection name="Additional Information" last>
-        <InformationPoint heading="Awards and Recognition">
-          Association for Computer Professionals in Education (ACPE)
-          Scholarship, Tau Beta Pi Membership, 2021 Brown CS Undergraduate
-          Research Symposium Winner (4 of 27 presenters chosen), 3rd Place at
-          2020 5C Hackathon
-        </InformationPoint>
-        <InformationPoint heading="Activities">
-          Hack@Brown Design Team, Animator for SciToons at Brown, Brown FSAE
+        <InformationPoint heading="Technical Skills">
+          Fluent in: Python, Stata, R, C#, JavaScript, Java, SQL, &amp; LaTeX;
+          AWS/Azure cloud compute
         </InformationPoint>
         <InformationPoint heading="Languages">
-          English and German (native), French (conversational)
+          English and Spanish (native), German (conversational)
+        </InformationPoint>
+        <InformationPoint heading="Personal Interests">
+          Hiking, snowboarding, backpacking, climbing, pottery, scuba, tennis,
+          cycling, gemology, personal finance, cooking, coffee
         </InformationPoint>
       </ResumeSection>
     </Page>

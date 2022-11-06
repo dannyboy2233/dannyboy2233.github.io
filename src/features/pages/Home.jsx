@@ -30,7 +30,7 @@ const Home = () => (
           <span className="mx-3 text-secondary">|</span>
           {/* <Link to="/projects">Projects</Link>
           <span className="mx-3 text-secondary">|</span> */}
-          <Link to="/">Resume</Link>
+          <Link to="/resume">Resume</Link>
         </div>
         <div className="mt-4 d-flex flex-row">
           <IconButton
