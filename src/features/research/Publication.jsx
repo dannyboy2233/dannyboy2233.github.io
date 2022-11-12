@@ -4,7 +4,8 @@ import './Publication.scss';
 
 const Publication = ({
   title,
-  url,
+  paperUrl,
+  repoUrl,
   authors,
   venue,
   thumbnailSource,
@@ -29,11 +30,14 @@ const Publication = ({
   return (
     <div {...props}>
       <div className="d-flex flex-column">
-        <a href={url} className="publication-link">
+        <a href={paperUrl} className="publication-link">
           {title}
         </a>
         <div>{authorBlob}</div>
         <div className="font-italic">{venue}</div>
+        <a href={repoUrl} className="link-secondary">
+          Download replication code and data.
+        </a>
       </div>
     </div>
   );
@@ -41,7 +45,8 @@ const Publication = ({
 
 Publication.propTypes = {
   title: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  paperUrl: PropTypes.string.isRequired,
+  repoUrl: PropTypes.string.isRequired,
   authors: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,

@@ -7,10 +7,11 @@ import Page from './Page';
 
 const Research = () => {
   const publicationNodes = publications.map(
-    ({ title, url, thumbnailSource, authors, venue }, index) => (
+    ({ title, paperUrl, repoUrl, thumbnailSource, authors, venue }, index) => (
       <Publication
         title={title}
-        url={url}
+        paperUrl={paperUrl}
+        repoUrl={repoUrl}
         thumbnailSource={thumbnailSource}
         authors={authors}
         venue={venue}
