@@ -13,12 +13,16 @@ const Home = () => (
       <div className="p-4">
         <h1>Daniel Cohen</h1>
         <div>
-          Hi! I&apos;m a predoctoral fellow in the Economics and Computation
-          group at{' '}
+          Hi! I&apos;m a research fellow in the Economics and Computation group
+          at{' '}
           <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/">
             Microsoft Research New England
           </a>
-          . Academically, I&apos;m interested in using novel data collection and
+          . In fall 2023 I will be joining Northwestern University's Kellogg
+          School of Management as a PhD student in Managerial Economics and
+          Strategy. I am grateful to be supported in my research by the National
+          Science Foundation's Graduate Research Fellowship Program. \r\n
+          Academically, I&apos;m interested in using novel data collection and
           analysis methods to understand how households make financial
           decisions. Personally, I&apos;m interested in hiking, cycling,
           mountain biking, climbing, and obsessing over the perfect espresso. I
