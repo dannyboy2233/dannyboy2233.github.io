@@ -24,8 +24,8 @@ const Home = () => (
           Foundation&apos;s{' '}
           <a href="https://www.nsfgrfp.org/">
             Graduate Research Fellowship Program
-          </a>
-          .
+          </a>{' '}
+          under Grant No. DGE-2234667.
           <br />
           <br /> Academically, I&apos;m interested in using novel data
           collection and analysis methods to understand how households make
