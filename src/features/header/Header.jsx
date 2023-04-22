@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import HeaderLink from './HeaderLink';
+import HeaderAnchor from './HeaderAnchor';
 
 const Header = () => (
   <Navbar
@@ -16,7 +17,9 @@ const Header = () => (
       <Nav className="p-2">
         <HeaderLink to="/research">Research</HeaderLink>
         {/* <HeaderLink to="/projects">Projects</HeaderLink> */}
-        <HeaderLink to="/resume">Resume</HeaderLink>
+        <HeaderAnchor to="https://www.dropbox.com/s/bmxlo05oi67zp2h/Daniel%20Cohen%20Academic%20CV.pdf?dl=0">
+          CV
+        </HeaderAnchor>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
