@@ -35,7 +35,7 @@ const Home = () => (
           espresso. I graduated from UC Berkeley in 2021 with dual degrees in
           Economics and Data Science.
         </div>
-        <br /> <span style={{ fontWeight: 'bold' }}>Email</span>:
+        <br /> <span style={{ fontWeight: 'bold' }}>Email:</span>
         [first].[last]@kellogg.northwestern.edu
         {/* <div className="mt-2">
           <Link to="/research">Research</Link>
