@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import { LinkedinFilled, GithubFilled, MailOutlined } from '@ant-design/icons';
+import { LinkedinFilled, GithubFilled } from '@ant-design/icons';
 import Page from './Page';
 import '../home/Home.scss';
 import Me from '../home/me.jpg';
@@ -35,6 +35,8 @@ const Home = () => (
           espresso. I graduated from UC Berkeley in 2021 with dual degrees in
           Economics and Data Science.
         </div>
+        <br /> <span style={{ fontWeight: 'bold' }}>Email</span>:
+        [first].[last]@kellogg.northwestern.edu
         {/* <div className="mt-2">
           <Link to="/research">Research</Link>
           <span className="mx-3 text-secondary">|</span>
@@ -43,12 +45,12 @@ const Home = () => (
           <Link to="/resume">Resume</Link>
 </div> */}
         <div className="mt-3 d-flex flex-row">
-          <IconButton
+          {/* <IconButton
             className="mr-2"
             href="mailto:daniel.cohen@kellogg.northwestern.edu"
           >
             <MailOutlined />
-          </IconButton>
+</IconButton> */}
           <IconButton
             className="mr-2"
             href="https://www.linkedin.com/in/daniel-cohen-12312a140"
