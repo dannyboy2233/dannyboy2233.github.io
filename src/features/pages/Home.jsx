@@ -14,15 +14,15 @@ const Home = () => (
       <div className="p-4">
         <h1>Daniel Cohen</h1>
         <div>
-          Welcome! I&apos;m a research fellow in the Economics and Computation
-          group at{' '}
+          Welcome! I&apos;m a PhD student in Managerial Economics &amp; Strategy
+          at Northwestern University&apos;s Kellogg School of Management. Before
+          that, I was a research fellow in the Economics and Computation group
+          at{' '}
           <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/">
             Microsoft Research New England
           </a>
-          . In fall 2023 I will be joining Northwestern University&apos;s
-          Kellogg School of Management as a PhD student in Managerial Economics
-          and Strategy. I am grateful to be supported by the National Science
-          Foundation&apos;s{' '}
+          . I am grateful to be supported in my graduate studies by the National
+          Science Foundation&apos;s{' '}
           <a href="https://www.nsfgrfp.org/">
             Graduate Research Fellowship Program
           </a>{' '}
