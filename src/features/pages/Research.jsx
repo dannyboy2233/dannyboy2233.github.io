@@ -21,17 +21,20 @@ const Research = () => {
     )
   );
 
-  const ongoingWorkNodes = ongoingworks.map(({ title, description }, index) => (
-    <ul>
-      <li>
-        <OngoingWork
-          title={title}
-          description={description}
-          className={index < publications.length - 1 ? 'mb-4' : ''}
-        />
-      </li>
-    </ul>
-  ));
+  const ongoingWorkNodes = ongoingworks.map(
+    ({ title, description, authors }, index) => (
+      <ul>
+        <li>
+          <OngoingWork
+            title={title}
+            description={description}
+            authors={authors}
+            className={index < publications.length - 1 ? 'mb-4' : ''}
+          />
+        </li>
+      </ul>
+    )
+  );
 
   const subtitle = (
     <>
@@ -46,7 +49,7 @@ const Research = () => {
   return (
     <Page title="Research" subtitle={subtitle}>
       <div className="mb-4">
-        <h2>Working Papers</h2>
+        <h2>Papers Under Revision</h2>
         {publicationNodes}
       </div>
       <div className="mb-4">

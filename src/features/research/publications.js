@@ -11,7 +11,7 @@ export const OptimalNPI = {
   repoUrl:
     'https://www.dropbox.com/s/knmfo3s9x4u7vo5/OptimalNPI_replication.zip?dl=0',
   authors: [HuntAllcott, DanielCohen, WilliamMorrison, DmitryTaubinsky],
-  venue: 'Submitted to Journal of Political Economy (November 2022).',
+  venue: 'Revise and resubmit at the American Economic Review.',
 };
 
 export default [OptimalNPI];
