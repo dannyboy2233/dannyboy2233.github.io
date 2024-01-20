@@ -15,7 +15,11 @@ const OngoingWork = ({ title, description, authors, ...props }) => {
     authorLinks.forEach((authorLink, index) => {
       authorBlob.push(authorLink);
       if (index === authorLinks.length - 2) {
-        authorBlob.push(' and ');
+        if (authorLinks.length === 2) {
+          authorBlob.push(' and ');
+        } else {
+          authorBlob.push(', and ');
+        }
       } else if (index < authorLinks.length - 2) {
         authorBlob.push(', ');
       }

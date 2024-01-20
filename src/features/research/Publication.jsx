@@ -7,6 +7,7 @@ const Publication = ({
   paperUrl,
   repoUrl,
   authors,
+  status,
   venue,
   thumbnailSource,
   ...props
@@ -18,23 +19,36 @@ const Publication = ({
     </a>
   ));
   const authorBlob = [];
-  authorLinks.forEach((authorLink, index) => {
-    authorBlob.push(authorLink);
-    if (index === authorLinks.length - 2) {
-      authorBlob.push(', and ');
-    } else if (index < authorLinks.length - 2) {
-      authorBlob.push(', ');
-    }
-  });
+  if (authorLinks.length > 0) {
+    authorBlob.push('(with ');
+    authorLinks.forEach((authorLink, index) => {
+      authorBlob.push(authorLink);
+      if (index === authorLinks.length - 2) {
+        if (authorLinks.length === 2) {
+          authorBlob.push(' and ');
+        } else {
+          authorBlob.push(', and ');
+        }
+      } else if (index < authorLinks.length - 2) {
+        authorBlob.push(', ');
+      }
+    });
+    authorBlob.push(')');
+  }
 
   return (
     <div {...props}>
       <div className="d-flex flex-column">
-        <a href={paperUrl} className="publication-link">
-          {title}
-        </a>
-        <div>{authorBlob}</div>
-        <div className="font-italic">{venue}</div>
+        <div>
+          <a href={paperUrl} className="publication-link">
+            {title}
+          </a>{' '}
+          {authorBlob}
+        </div>
+
+        <div>
+          {status} <i>{venue}</i>
+        </div>
         <a href={repoUrl} className="link-secondary">
           Download replication code and data.
         </a>
@@ -53,6 +67,7 @@ Publication.propTypes = {
       url: PropTypes.string.isRequired,
     }).isRequired
   ).isRequired,
+  status: PropTypes.string.isRequired,
   venue: PropTypes.string.isRequired,
   thumbnailSource: PropTypes.string.isRequired,
 };

@@ -5,7 +5,7 @@ export const DanielCohen = {
 
 export const HuntAllcott = {
   name: 'Hunt Allcott',
-  url: 'https://sites.google.com/site/allcott/home',
+  url: 'https://allcott.stanford.edu/',
 };
 
 export const DmitryTaubinsky = {
