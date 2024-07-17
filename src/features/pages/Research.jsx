@@ -42,7 +42,7 @@ const Research = () => {
 
   const subtitle = (
     <>
-      I&apos;ve conducted undergraduate research with{' '}
+      As an undergraduate, I was a research assistant for{' '}
       <a href="https://raulsanchezdelasierra.com/">Raúl Sánchez de la Sierra</a>{' '}
       (now at the University of Chicago&apos;s Harris School of Public Policy)
       and <a href="https://www.jblumenstock.com/">Josh Blumenstock</a> at

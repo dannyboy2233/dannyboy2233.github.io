@@ -15,7 +15,7 @@ export const DmitryTaubinsky = {
 
 export const WilliamMorrison = {
   name: 'William Morrison',
-  url: 'https://www.econ.berkeley.edu/grad/profiles/12007',
+  url: 'https://www.cornerstone.com/professionals/william-morrison/',
 };
 
 export const DavidRothschild = {
