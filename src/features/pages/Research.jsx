@@ -8,7 +8,16 @@ import Page from './Page';
 const Research = () => {
   const publicationNodes = publications.map(
     (
-      { title, paperUrl, repoUrl, thumbnailSource, authors, status, venue },
+      {
+        title,
+        paperUrl,
+        repoUrl,
+        thumbnailSource,
+        authors,
+        status,
+        venue,
+        citation,
+      },
       index
     ) => (
       <Publication
@@ -19,6 +28,7 @@ const Research = () => {
         authors={authors}
         status={status}
         venue={venue}
+        citation={citation}
         key={title}
         className={index < publications.length - 1 ? 'mb-4' : ''}
       />
@@ -53,7 +63,7 @@ const Research = () => {
   return (
     <Page title="Research" subtitle={subtitle}>
       <div className="mb-4">
-        <h2>Papers Under Revision</h2>
+        <h2>Publications</h2>
         {publicationNodes}
       </div>
       <div className="mb-4">

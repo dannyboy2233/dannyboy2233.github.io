@@ -9,6 +9,7 @@ const Publication = ({
   authors,
   status,
   venue,
+  citation,
   thumbnailSource,
   ...props
 }) => {
@@ -47,11 +48,15 @@ const Publication = ({
         </div>
 
         <div>
-          {status} <i>{venue}</i>
+          {status}
+          <i>{venue}</i>
+          {citation}
         </div>
-        <a href={repoUrl} className="link-secondary">
-          Download replication code and data.
-        </a>
+        <div>
+          <a href={repoUrl} className="link-secondary">
+            Download replication code and data.
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -69,6 +74,7 @@ Publication.propTypes = {
   ).isRequired,
   status: PropTypes.string.isRequired,
   venue: PropTypes.string.isRequired,
+  citation: PropTypes.string.isRequired,
   thumbnailSource: PropTypes.string.isRequired,
 };
 
