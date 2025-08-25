@@ -17,7 +17,7 @@ const Header = () => (
       <Nav className="p-2">
         <HeaderLink to="/research">Research</HeaderLink>
         {/* <HeaderLink to="/projects">Projects</HeaderLink> */}
-        <HeaderAnchor to="https://www.dropbox.com/s/bmxlo05oi67zp2h/Daniel%20Cohen%20Academic%20CV.pdf?dl=0">
+        <HeaderAnchor to="https://www.dropbox.com/scl/fi/0jn4cfcn4axolkrbbhv4l/Daniel-Cohen-Academic-CV.pdf?rlkey=1q5qx5g9i0xfj8sc69jpbun61&st=gvsk7ysm&dl=0">
           CV
         </HeaderAnchor>
       </Nav>
