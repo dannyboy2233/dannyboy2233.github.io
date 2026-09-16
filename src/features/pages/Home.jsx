@@ -14,10 +14,26 @@ const Home = () => (
       <div className="p-4">
         <h1>Daniel Cohen</h1>
         <div>
-          Welcome! I&apos;m a PhD student in Managerial Economics &amp; Strategy
-          at Northwestern University&apos;s Kellogg School of Management. Before
-          that, I was a research fellow in the Economics and Computation group
-          at{' '}
+          I am a PhD candidate in Managerial Economics &amp; Strategy at
+          Northwestern University&apos;s Kellogg School of Management. I am also
+          a Visiting Scholar with the Microeconomics Research Team at the{' '}
+          <a
+            href="https://www.chicagofed.org/people/teams/microeconomics/index"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Federal Reserve Bank of Chicago
+          </a>{' '}
+          and a Visiting Researcher at{' '}
+          <a
+            href="https://www.banxico.org.mx/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Banco de México
+          </a>
+          . Before graduate school, I was a research fellow in the Economics and
+          Computation group at{' '}
           <a
             href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/"
             target="_blank"
@@ -25,7 +41,15 @@ const Home = () => (
           >
             Microsoft Research New England
           </a>
-          . I&apos;m grateful to be supported in my graduate studies by the
+          . I graduated from UC Berkeley in 2021 with High Distinction and High
+          Honors, where I studied Economics and Data Science. <br />
+          <br />
+          In my research, I use novel data (primarily administrative) to
+          understand how firms compete in markets for consumer financial
+          products. In my free time, I can be found hiking, biking, climbing,
+          snowboarding, or obsessing over the perfect espresso.
+          <br />
+          <br /> I&apos;m grateful to be supported in my graduate studies by the
           National Science Foundation&apos;s{' '}
           <a
             href="https://www.nsfgrfp.org/"
@@ -43,7 +67,7 @@ const Home = () => (
           >
             Banco de México
           </a>
-          , the{' '}
+          , Northwestern&apos;s{' '}
           <a
             href="https://www.kellogg.northwestern.edu/academics-research/global-poverty-research-lab/"
             target="_blank"
@@ -51,7 +75,7 @@ const Home = () => (
           >
             Global Poverty Research Lab
           </a>
-          , and the{' '}
+          , and Northwestern&apos;s{' '}
           <a
             href="https://buffett.northwestern.edu/"
             target="_blank"
@@ -60,13 +84,6 @@ const Home = () => (
             Roberta Buffett Institute for Global Affairs
           </a>
           .
-          <br />
-          <br /> Academically, I&apos;m interested in using novel data
-          collection and analysis methods to understand how firms compete in
-          markets for consumer financial products. Personally, I&apos;m
-          interested in hiking, cycling, mountain biking, climbing, and
-          obsessing over the perfect espresso. I graduated from UC Berkeley in
-          2021 with dual degrees in Economics and Data Science.
         </div>
         <br /> <span style={{ fontWeight: 'bold' }}>Email:</span>{' '}
         [first].[last]@kellogg.northwestern.edu

@@ -50,18 +50,8 @@ const Research = () => {
     )
   );
 
-  const subtitle = (
-    <>
-      As an undergraduate, I was a research assistant for{' '}
-      <a href="https://raulsanchezdelasierra.com/">Raúl Sánchez de la Sierra</a>{' '}
-      (now at the University of Chicago&apos;s Harris School of Public Policy)
-      and <a href="https://www.jblumenstock.com/">Josh Blumenstock</a> at
-      Berkeley&apos;s School of Information.
-    </>
-  );
-
   return (
-    <Page title="Research" subtitle={subtitle}>
+    <Page title="Research">
       <div className="mb-4">
         <h2>Publications</h2>
         {publicationNodes}
